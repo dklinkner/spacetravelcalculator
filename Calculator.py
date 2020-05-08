@@ -48,6 +48,7 @@ def distance_traveled():
         else:
             break
     distance = float(distance)
+    unit = unit.lower()
     expected_units_m = ["m", "meters"]
     expected_units_km = ["km", "kilometers"]
     expected_units_mi = ["mi", "miles"]
